@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/media.css">
+
+    <title>HW-9.1</title>
+  </head>
+  <body>
+    <section class="boo">
+      <div class="container">
+          <h1 class="text-center">Boolean Attribute</h1>
+          <h2>1.Disabled</h2>
+          <h3>Example:</h3>
+          <a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
+      </div>
+      <div class="container">
+        <h2>2.Checked</h2>
+          <h3>Example:</h3>
+          <div class="btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+              <input type="checkbox" checked autocomplete="off"> Checked
+            </label>
+      </div>
+      </div>
+      <div class="container">
+        <h2>3.Compact</h2>
+        <p><b>The compact attribute is a boolean attribute.
+          When present, it specifies that the list should render smaller than normal, by reducing the space between lines and the indentation of the list.</b></p>
+      </div>
+
+      <div class="container">
+        <h2>4.Autocomplete</h2>
+        <h3>Example:</h3>
+        <form  method="get" autocomplete="on">
+          First name:<input type="text" name="fname"><br>
+          E-mail: <input type="email" name="email"><br>
+          <input type="submit">
+        </form>
+      </div>
+
+      <div class="container">
+        <h2>5.Autofocus</h2>
+        <p><b>The autofocus attribute is a boolean attribute.
+        When present, it specifies that an input element should automatically get focus when the page loads.</b></p>
+      </div>
+
+      <div class="container">
+        <h2>6.Autoplay</h2>
+        <p><b>The autoplay attribute is a boolean attribute.
+              When present, the video will automatically start playing as soon as it can do so without stopping.</b></p>
+      </div>
+
+      <div class="container">
+        <h2>7.Contenteditable</h2>
+        <h3>Example:</h3>
+        <p><b><p contenteditable="true">This is a paragraph. It is editable. Try to change this text.</p></b></p>
+        <p>The contenteditable attribute specifies whether the content of an element is editable or not</p>
+      </div>
+
+      <div class="container">
+        <h2>8.Controls</h2>
+        <h3>Example:</h3>
+        <video width="320" height="240" controls>
+        <source src="videos/movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      </video>
+      <p><b>The controls attribute is a boolean attribute.
+      When present, it specifies that audio/video controls should be displayed.
+      Controls should include:
+      <ul>
+        <li>Play</li>
+<li>Pause</li>
+<li>Seeking</li>
+<li>Volume</li>
+<li>Fullscreen toggle (for video only)</li>
+<li>Captions/Subtitles (for video only, when available)</li>
+<li>Track (for video only, when available)</li>
+      </ul>
+      </b></p>
+    </div>
+
+    <div class="container">
+      <h2>9.Default</h2>
+      <h3>Example:</h3>
+      <p><b>The default attribute is a boolean attribute.
+            When present, it specifies that the track is to be enabled if the user's preferences do not indicate that another track would be more appropriate.
+      </b></p>
+    </div>
+
+    <div class="container">
+      <h2>10.formnovalidate</h2>
+          <h3>Example:</h3>
+      <form action="/action_page.php">
+      E-mail: <input type="email" name="userid"><br>
+      <input type="submit" value="Submit"><br>
+      <input type="submit" formnovalidate="formnovalidate" value="Submit without validation">
+      </form>
+      <p><b>The formnovalidate attribute is a boolean attribute.
+            When present, it specifies that the input element should not be validated when submitted.
+          The formnovalidate attribute overrides the novalidate attribute of the form element.
+      </b></p>
+   </div>
+
+   <div class="container">
+     <h2>11.frameborder</h2>
+     <h3>Example:</h3>
+    <p><b> 
+      The frameborder attribute is a boolean attribute.
+      The frame tag is not supported in HTML5.
+    The frameborder attribute specifies whether or not to display a border around a frame.</b></p>
+   </div>
+
+   <div class="container">
+     <h2>12.hidden</h2>
+     <h3>Example:</h3>
+     <p><b>The hidden attribute is a boolean attribute.
+            When present, it specifies that an element is not yet, or is no longer, relevant.
+            Browsers should not display elements that have the hidden attribute specified.
+     </b></p>
+   </div>
+
+   <div class="container">
+     <h2>13.multiple</h2>
+     <h3>Example:</h3>
+     <form>
+      <select name="cars"multiple >
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+      </select>
+      <input type="submit">
+      </form>
+    <p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
+    <p><b>The multiple attribute is a boolean attribute.
+          When present, it specifies that the user is allowed to enter/select more than one value.
+    </b></p>
+   </div>
+
+   <div class="container">
+     <h2>14.muted</h2>
+     <h3>Example:</h3>
+     <video width="320" height="240" controls muted>
+        <source src="videos/movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        </video>
+        <p><b>The muted attribute is a boolean attribute.
+              When present, it specifies that the audio output of the video should be muted.
+        </b></p>
+   </div>
+
+   <div class="container">
+     <h2>15.readonly</h2>
+     <h3>Example:</h3>
+     <form action="/action_page.php">
+        Email: <input type="text" name="email"><br>
+        Country: <input type="text" name="country" value="Norway" readonly><br>
+        <input type="submit" value="Submit">
+      </form>
+
+        <p><b>The readonly attribute is a boolean attribute.
+              When present, it specifies that an input field or textarea is read-only.
+              A read-only field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).
+        </b></p>
+   </div>
+
+   <div class="container">
+     <h2>16.noshade</h2>
+     <h3>Example:</h3>
+     
+    <p>A shaded horizontal line (this is default):</p>
+<hr>
+
+<p>A noshaded horizontal line:</p>
+<hr noshade>
+
+<p>The noshade attribute is not supported HTML5. Use CSS instead.</p>
+
+        <p><b>The noshade attribute is a boolean attribute.
+              When present, it specifies that a horizontal line should render in one solid color (noshaded), instead of a shaded color.
+        </b></p>
+   </div>
+
+   <div class="container">
+     <h2>17.required</h2>
+     <h3>Example:</h3>
+     <form action="/action_page.php">
+      Username: <input type="text" name="usrname" required>
+      <input type="submit">
+    </form>
+      <p><b>The required attribute is a boolean attribute.
+        When present, it specifies that the element must be filled out before submitting the form.
+        </b></p>
+   </div>
+
+   <div class="container">
+     <h2>18.selected</h2>
+     <h3>Example:</h3>
+     <select>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="vw">VW</option>
+        <option value="audi" selected>Audi</option>
+      </select>
+
+      <p><b>The selected attribute is a boolean attribute.
+            When present, it specifies that an option should be pre-selected when the page loads.
+            The pre-selected option will be displayed first in the drop-down list.
+      </b></p>
+   </div>
+
+   <div class="container">
+     <h2>19.spellcheck</h2>
+     <h3>Example:</h3>
+     First name: <input type="text" name="fname" spellcheck="true">
+
+      <p><b>The spellcheck attribute specifies whether the element is to have its spelling and grammar checked or not.<br>
+
+     The following can be spellchecked:
+      <ul>
+        <li>Text values in input elements (not password)</li>
+        <li>Text in textarea elements</li>
+        <li>Text in editable elements</li>
+      </ul>
+
+
+      </b></p>
+   </div>
+    </section>
+
+
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
